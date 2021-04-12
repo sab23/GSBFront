@@ -1,0 +1,23 @@
+.container
+{
+     text-align: center;
+     margin-top: 50px;
+}
+.left-div
+{
+     display: inline-block;
+     max-width: 1000px;
+     vertical-align: top;
+}
+.right-div
+{
+     display: inline-block;
+     max-width: 1000px;
+}
+@media screen and (max-width: 600px) 
+{
+     .left-div, .right-div
+     {
+          max-width: 500%;
+     }
+}

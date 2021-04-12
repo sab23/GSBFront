@@ -1,0 +1,43 @@
+
+.center-div {
+    position: absolute;
+     margin: auto;
+     top: 200;
+     right: 0;
+     bottom: 300;
+     left: 0;
+     width: 300px;
+     height: 200px;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.left-div
+{
+     display: inline-block;
+     max-width: 1000px;
+     vertical-align: top;
+}
+.right-div
+{
+     display: inline-block;
+     max-width: 1000px;
+}
+@media screen and (max-width: 600px) 
+{
+     .left-div, .right-div
+     {
+          max-width: 500%;
+     }
+}
+
