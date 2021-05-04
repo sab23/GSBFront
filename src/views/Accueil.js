@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css';
 import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
-import BillsList from '../components/acceuil/accueil'
+import Footer2 from '../components/footer/Footer2'
 
 class Accueil extends React.Component {
 
@@ -13,8 +13,11 @@ class Accueil extends React.Component {
   render () {
     return (
       <body class="d-flex flex-column h-100">
-      <BillsList />
+    <Footer2 />
+      <Header />
+
       <Footer />
+      
 
       </body>
     )

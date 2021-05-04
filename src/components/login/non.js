@@ -4,7 +4,8 @@ import {withRouter} from 'react-router-dom'
 import gsb from '../img/gsb.jpg'
 import {getToken} from '../../api/auth.js'
 
-class Login extends React.Component {
+
+class Non extends React.Component {
 
     constructor(props) {
       super(props);
@@ -25,8 +26,6 @@ class Login extends React.Component {
             localStorage.setItem('id', decoded.id)
             localStorage.setItem('token', token)
             this.props.history.push('/bills')
-        }else{
-            this.props.history.push('/non')
         }
     }
 
@@ -41,7 +40,7 @@ render() {
                     <img class="mb-4" src={gsb}/>
                 </div>
                 <div class="right-div">
-                    <h1 class="h3 mb-3 fw-normal">Connectez-vous</h1>
+                    <h1 class="h3 mb-3 fw-normal">NOUS N'AVONS PAS PU VOUS CONNECTER</h1>
                     <label for="inputEmail" class="visually-hidden">Mail</label>
                     <input type="email" name="login" id="inputEmail" class="form-control" placeholder="login" onChange={(e) => this.handleChange(e)} />
                     <label for="inputPassword" class="visually-hidden">Mot de Passe</label>
@@ -60,4 +59,4 @@ render() {
     }
 }
 
-export default withRouter(Login)
+export default withRouter(Non)

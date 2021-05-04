@@ -1,0 +1,28 @@
+.logo {
+    height:40px;
+    width:70px;
+    background-size: 100%;
+    background-image: url('../login/gsb.jpg');
+    background-repeat:no-repeat;
+    }
+    
+    a:hover  {
+    
+    color:rgb(51, 156, 212) !important;
+    
+    }
+    a{font-family: 'Rouge Script', cursive; 
+        font-size: 18px; font-weight: normal;   text-shadow: 1px 1px 2px #000000;
+    text-align:center;
+    width:250px;
+    }
+    
+    .nav-item2 {
+        
+    
+    
+    }
+    
+    li {
+        padding-left:40px;
+    }
